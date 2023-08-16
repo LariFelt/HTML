@@ -5,4 +5,21 @@
 #toka { clear: both; float: right; }
 
 img { margin: 0px 10px 5px 10px}
-table {border: 1px solid black}
+table {
+    border-collapse: collapse;
+}
+table {
+    border: 1px solid black;
+}
+
+td, th {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+
+}
+th {background-color:#ff0000}
+    
+tr:nth-child(2n+1) {background-color:#ffd800}
+th {color:#ffffff}
