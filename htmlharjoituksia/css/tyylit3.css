@@ -1,0 +1,26 @@
+
+body {
+    background-size: cover;
+    height: 125vh;
+    background-color: dodgerblue;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+header {
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+}
+
+main {
+    color: white;
+}
+header * {
+    display: inline;
+}
+
