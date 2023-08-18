@@ -6,53 +6,49 @@ header {
     background-color: #7D63C4;
     margin: 20px 10px 10px 10px;
     height: 90px;
-    display: flex;
 }
-    header * {
-        display: inline;
+
+
+header h1 {
+        margin: 20px 0 0 20px;
+        color: #FFF;
+        padding:15px
     }
 
+header nav {
+        background-color: #9680D5;
+        height: 20px;
+        width: 500px;
+        margin: -14px 0 0 300px;
 
-header h1
-{
-    margin:20px 0 0 20px;
-    color:#FFF;
-}
+        
+    }
 
-header nav 
-{
-    background-color:#9680D5 ;
-    height: 20px;
-    width: 470px;
-    position: fixed;
-    top: 90px;
-    left: 300px;   
-}
-
-nav li
-{
-    float:left;
+nav li {
+    float: left;
     padding: 0 10px;
     list-style-type: none;
-    }
+}
 
-#eka 
+article 
 {
     float:left;
-    margin:10px 1100px 10px 10px;
+    margin:10px 10px 10px 10px;
     background-color:#573AA8;
     color:#FFF;
+    width:800px;
+    padding:5px;
     
     }
 
 aside {
-    position: fixed;
-    top: 100px;
-    right: 10px;
-    width: 400px;
+   float:right;
+    width: 300px;
     background-color: #573AA8;
     color: #FFF;
-    margin: 10px;
+    margin:0 10px 0 0;
+    padding:5px;
+  
 }
 
 section
