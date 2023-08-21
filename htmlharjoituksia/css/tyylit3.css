@@ -1,11 +1,11 @@
-body 
-{
+body {
     background-color:#684CB4;
 }
 header {
     background-color: #7D63C4;
     margin: 20px 10px 10px 10px;
     height: 90px;
+    
 }
 
 
@@ -30,28 +30,36 @@ nav li {
     list-style-type: none;
 }
 
-article 
-{
+article {
     float:left;
     margin:10px 10px 10px 10px;
     background-color:#573AA8;
     color:#FFF;
-    width:800px;
+    width:40%;
     padding:5px;
     
     }
 
 aside {
    float:right;
-    width: 300px;
+    width: 20%;
     background-color: #573AA8;
     color: #FFF;
     margin:0 10px 0 0;
     padding:5px;
-  
 }
 
-section
-{
+section{
     background-color:#573AA8;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #7D63C4;
+    height:20px;
+    width:100%;
+    padding:10px
+}
+#lahde{
+    float:right;
 }
