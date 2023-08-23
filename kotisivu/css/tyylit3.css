@@ -1,5 +1,8 @@
 body {
-    background-color:#684CB4;
+    background-color: #684CB4;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
 }
 header {
     background-color: #7D63C4;
@@ -29,37 +32,36 @@ nav li {
     padding: 0 10px;
     list-style-type: none;
 }
+section {
+    color: #FFF;
+}
 
 article {
     float:left;
     margin:10px 10px 10px 10px;
     background-color:#573AA8;
-    color:#FFF;
-    width:40%;
+    width:50%;
     padding:5px;
     
     }
 
 aside {
    float:right;
-    width: 10%;
+    width: 200px;
     background-color: #573AA8;
-    color: #FFF;
     margin:0 10px 0 0;
     padding:5px;
+    display:block
 }
 
-section{
-    background-color:#573AA8;
-}
-footer {
-    position: fixed;
-    bottom: 0px;
-    background-color: #7D63C4;
-    height:20px;
-    width:100%;
-    padding:10px
-}
+
 #lahde{
     float:right;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #7D63C4;
+    margin-top: auto;
 }
