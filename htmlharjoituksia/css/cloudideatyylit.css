@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tulpen One', cursive;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+main {
+    display: table;
+    width: 70%;
+    margin: 10px auto;
+    overflow: auto
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5em;
+}
+
+header {
+    border-bottom: 9px solid;
+    color: #4EA0D9;
+}
+
+#CIlogo{
+    display: block;
+    margin: auto;
+}
+
+#alku {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    line-height: 1em;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+h4 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+#vasen {
+    float: left;
+    width: 45%;
+}  
+#vasen ul li {
+    margin-bottom: 30px;
+}
+#vasen ul img {
+    float: left;
+    margin-right: 10px;
+}
+#vasen ul h4 {
+    padding-top: 5px;
+}
+#vasen ul {
+    list-style: none;
+}
+
+#oikea {
+    float: right;
+    width: 48%;
+}
+
+.clearfix:before, .clearfix:after {
+    content: ' ';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.content-header {
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+#yhteystiedot {
+    padding: 30px 20px 20px 20px;
+    border: 4px solid #4EA0D8;
+    overflow: auto;
+    background: #F4F4F4;
+}
+#yhteystiedot div {
+    margin-bottom: 20px;
+}
+#yhteystiedot label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+#yhteystiedot input[type='text'],
+#yhteystiedot input[type='email'] {
+    height: 25px;
+    width: 50%;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+#yhteystiedot input[type='submit'] {
+    display: block;
+    float: right;
+    padding: 12px 17px;
+    background: #FA6E5A;
+    color: #FFF;
+    border: 0;
+    border-radius: 5px;
+}
+
+#loppu {
+    display: table-row;
+    margin: 40px 0;
+    color: #808080;
+}
+
+#loppu img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+   
+footer {
+    border-top: 1px solid #CCC;
+    text-align: center;
+    color: #AAA;
+}
+
+
