@@ -20,6 +20,30 @@ p {
     line-height: 1.5em;
 }
 
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    line-height: 1em;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+h4 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.content-header {
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.content-footer {
+    border-top: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
 header {
     border-bottom: 8px solid;
     color: #4EA0D9;
@@ -35,18 +59,6 @@ header {
     padding: 10px;
     text-align: center;
     color: #333;
-}
-
-h1 {
-    font-size: 2em;
-    font-weight: bold;
-    margin: 10px 0 10px 0;
-    line-height: 1em;
-    font-family: 'Bricolage Grotesque', sans-serif;
-}
-
-h4 {
-    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 #vasen {
@@ -69,34 +81,17 @@ h4 {
     width: 48%;
 }
 
-.clearfix:before, .clearfix:after {
-    content: ' ';
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
-.content-header {
-    border-bottom: 1px solid #DDD;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-.content-footer {
-    border-top: 1px solid #DDD;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
+
 
 #yhteystiedot {
     padding: 30px 20px 20px 20px;
     border: 4px solid #4EA0D8;
     overflow: auto;
     background: #F4F4F4;
-}
-#yhteystiedot div {
-    margin-bottom: 20px;
+    border-radius: 10px;
 }
 #yhteystiedot label {
+    margin-bottom:20px;
     display: inline-block;
     width: 100px;
     font-weight: bold;
@@ -134,4 +129,75 @@ h4 {
     border-top: 1px solid #CCC;
     text-align: center;
     color: #AAA;
+}
+
+/* Näytöt, joiden maksimileveys on 1023px */
+@media (max-width:1023px) {
+    #container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    #left, #right {
+        width: 100%;
+        clear: both;
+        float: left;
+    }
+
+        #left .points li {
+            width: 80%;
+            margin: 0 auto 30px;
+            padding: 8px;
+            background: #EEE;
+            border-radius: 5px;
+        }
+
+        #left .points img {
+            margin-top: 10px;
+        }
+
+    #testimonials img {
+        display: block;
+        margin: 20px auto;
+        float: none;
+    }
+}
+/* Näytöt, joiden maksimileveys on 799px */
+@media (max-width: 799px) {
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    #left, #right {
+        width: 100%;
+        clear: both;
+        /*float: none;*/
+    }
+
+    #contact-form {
+        clear: both;
+        padding: 20px 30px 30px 30px;
+    }
+}
+/* Näytöt, joiden maksimileveys on 479px */
+@media (min-width: 479px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
 }
