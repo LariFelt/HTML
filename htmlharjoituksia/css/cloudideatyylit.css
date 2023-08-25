@@ -33,14 +33,14 @@ h4 {
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-.content-header {
+.forminheader {
     border-bottom: 1px solid #DDD;
     margin-bottom: 20px;
     padding-bottom: 10px;
     color: #000;
 }
 
-.content-footer {
+.ulfooter {
     border-top: 1px solid #DDD;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -134,7 +134,7 @@ header {
     margin-bottom:20px;
 }
 
-#main-footer {
+#alafooter {
     border-top: 1px solid #CCC;
     text-align: center;
     color: #AAA;
