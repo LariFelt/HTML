@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Tulpen One', cursive;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5em;
 }
 
@@ -21,7 +21,7 @@ p {
 }
 
 header {
-    border-bottom: 9px solid;
+    border-bottom: 8px solid;
     color: #4EA0D9;
 }
 
@@ -63,9 +63,6 @@ h4 {
 #vasen ul h4 {
     padding-top: 5px;
 }
-#vasen ul {
-    list-style: none;
-}
 
 #oikea {
     float: right;
@@ -81,6 +78,11 @@ h4 {
 }
 .content-header {
     border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.content-footer {
+    border-top: 1px solid #DDD;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
@@ -127,11 +129,9 @@ h4 {
     margin-right: 20px;
     margin-bottom:20px;
 }
-   
-footer {
+
+#main-footer {
     border-top: 1px solid #CCC;
     text-align: center;
     color: #AAA;
 }
-
-
