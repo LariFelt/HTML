@@ -29,6 +29,7 @@ h1 {
 }
 
 h4 {
+    font-size:1.6em;
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
@@ -112,13 +113,20 @@ header {
     border: 0;
     border-radius: 5px;
 }
+#yhteystiedot input[type='submit']:hover {
+    background: #D55427;
+    cursor: pointer;
+}
+
 
 #loppu {
     display: table-row;
     margin: 40px 0;
     color: #808080;
 }
-
+#loppu p {
+    width:95%;
+}
 #loppu img {
     float: left;
     margin-right: 20px;
@@ -131,23 +139,26 @@ header {
     color: #AAA;
 }
 
-/* Näytöt, joiden maksimileveys on 1023px */
 @media (max-width:1023px) {
     #container {
         width: 80%;
     }
 
     h1 {
-        font-size: 2.2em;
+        font-size: 1.8em;
+    }
+    
+    h4 {
+        font-size:1.4em;
     }
 
-    #left, #right {
+    #vasen, #oikea {
         width: 100%;
         clear: both;
         float: left;
     }
 
-        #left .points li {
+        #vasen li {
             width: 80%;
             margin: 0 auto 30px;
             padding: 8px;
@@ -155,49 +166,44 @@ header {
             border-radius: 5px;
         }
 
-        #left .points img {
+        #vasen img {
             margin-top: 10px;
         }
 
-    #testimonials img {
+    #loppu img {
         display: block;
         margin: 20px auto;
         float: none;
     }
 }
-/* Näytöt, joiden maksimileveys on 799px */
+
 @media (max-width: 799px) {
 
-    h2 {
-        font-size: 1.7em;
+    h1{
+        font-size:1.6em;
     }
-
-    h3 {
-        font-size: 1.5em;
-    }
-
+    
     h4 {
         font-size: 1.2em;
     }
 
-    #left, #right {
+    #vasen, #oikea {
         width: 100%;
         clear: both;
-        /*float: none;*/
     }
 
-    #contact-form {
+    #yhteystiedot {
         clear: both;
         padding: 20px 30px 30px 30px;
     }
 }
-/* Näytöt, joiden maksimileveys on 479px */
+
 @media (min-width: 479px) {
     h1 {
         font-size: 1.6em;
     }
 
-    h2 {
+    h4 {
         font-size: 1.2em;
     }
 }
