@@ -1,0 +1,45 @@
+
+body {
+    background-color: #FFD634;
+}
+header {
+    margin: 20px 10px 10px 10px;
+    height: 90px;
+}
+header h1 {
+    font-family: 'permanent marker';
+}
+
+header h3 {
+    font-family: 'Pacifico';
+}
+
+header ul {
+    font-family: 'Lobster';
+}
+#logo {
+    width: 50px;
+}
+nav li {
+    font-size:20px;
+    float: right;
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+article {
+    margin:10px;
+    float:left;
+    width:80%
+}
+aside{
+    float:right;
+    width:15%;
+    background-color:#E9BC00;
+    text-align:center;
+}
+aside img{
+    display:block;
+    text-align:center;
+    width:100%
+}
