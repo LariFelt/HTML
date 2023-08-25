@@ -12,7 +12,7 @@ main {
     display: table;
     width: 70%;
     margin: 10px auto;
-    overflow: auto
+    overflow: auto;
 }
 
 p {
@@ -37,6 +37,7 @@ h4 {
     border-bottom: 1px solid #DDD;
     margin-bottom: 20px;
     padding-bottom: 10px;
+    color: #000;
 }
 
 .content-footer {
@@ -140,9 +141,6 @@ header {
 }
 
 @media (max-width:1023px) {
-    #container {
-        width: 80%;
-    }
 
     h1 {
         font-size: 1.8em;
